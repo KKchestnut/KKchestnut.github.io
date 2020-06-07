@@ -38,8 +38,7 @@ li a:hover {
 
 #resume {
   display: block;
-  margin: 0;
-  overflow: hidden;
+  max-width: 170px;
   color: #7aa7e1;
 }
 
