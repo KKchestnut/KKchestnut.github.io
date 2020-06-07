@@ -39,7 +39,7 @@ li a:hover {
 #resume {
   display: block;
   margin: 0;
-  padding: 14px 16px;
+  overflow: hidden;
   color: #7aa7e1;
 }
 
