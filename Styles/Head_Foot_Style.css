@@ -23,11 +23,20 @@ nav ul {
 }
 
 li a {
+  /*
   display: block;
   color:  #69C4F2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  */
+  padding: 15px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+   box-shadow: 0 16px 48px #E3E7EB;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -39,7 +48,7 @@ li a:hover {
 #Main_body{
   background: #465892;
   color: #eaecf2;
-  max-height: 2000px;
+  min-height: 2000px;
   padding: 10px;
 }
 
