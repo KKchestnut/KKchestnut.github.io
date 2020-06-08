@@ -2,7 +2,14 @@
 <html lang ='en'>
   <head>
     <!-- Favicon and tab bar title -->
+    <script>
+      $(function(){
+        $("#favicon").load("Templates/Favicon.html");
+      });
+    </script>
+
     <div id="favicon"> </div>
+
     <!-- Meta information -->
     <meta name='description'
       content="A personal website" />
@@ -12,6 +19,7 @@
       content="nofollow" />
     <meta http-equiv="author"
       content="Kaleb Chestnut" />
+      
       <!-- link information -->
       <link href="Styles/bootstrap.css" rel="stylesheet">
       <link href="Styles/fontawesome/css/all.css" rel="stylesheet">
@@ -26,12 +34,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-168674958-1');
-      </script>
-
-      <script>
-        $(function(){
-          $("#favicon").load("Templates/Favicon.html");
-        });
       </script>
 
       <script>
