@@ -1,14 +1,4 @@
-body{
-font-family: "Verdana", sans-serif;
-font-size: 16px;
-background: #36454f;
-color: #96D0B2;
-}
-
-footer{
-  font-family: "Robots", sans-serif;
-  color: #ffffff;
-}
+/*---         Nav       ---*/
 
 /* (ul, li, li a, & hover) for the navigation bar */
 nav ul {
@@ -23,20 +13,11 @@ nav ul {
 }
 
 li a {
-  /*
   display: block;
   color:  #69C4F2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  */
-  padding: 15px;
-  font-size: 30px;
-  width: 80px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 25%;
-   box-shadow: 0 16px 48px #E3E7EB;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -45,19 +26,12 @@ li a:hover {
   color: #ffffff;
 }
 
-#Main_body{
-  background: #465892;
-  color: #eaecf2;
-  min-height: 2000px;
-  padding: 10px;
-}
+/*---         Nav       ---*/
 
-#resume {
-  display: block;
-  max-width: 130px;
-  color: #7aa7e1;
-}
 
-#resume:hover{
+/*---         footer       ---*/
+footer{
+  font-family: "Robots", sans-serif;
   color: #ffffff;
 }
+/*---         footer       ---*/

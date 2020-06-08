@@ -1,0 +1,11 @@
+body{
+font-family: "Verdana", sans-serif;
+font-size: 16px;
+background: #36454f;
+color: #96D0B2;
+}
+
+#Main_body{
+  background: #4e689a
+  padding: 10px;
+}

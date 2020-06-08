@@ -1,0 +1,9 @@
+#resume {
+  display: block;
+  max-width: 130px;
+  color: #7aa7e1;
+}
+
+#resume:hover{
+  color: #ffffff;
+}
