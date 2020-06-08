@@ -2,7 +2,7 @@
 <html lang ='en'>
   <head>
     <!-- Favicon and tab bar title -->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <div id="favicon"> </div>
     <title> Kaleb Chestnut </title>
     <!-- Meta information -->
     <meta name='description'
@@ -27,6 +27,12 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-168674958-1');
+      </script>
+
+      <script>
+        $(function(){
+          $("#favicon").load("Templates/Favicon.html");
+        });
       </script>
 
       <script>
