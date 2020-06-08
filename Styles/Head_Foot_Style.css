@@ -36,6 +36,11 @@ li a:hover {
   color: #ffffff;
 }
 
+#Main_body{
+  background: #336680;
+  padding: 10px;
+}
+
 #resume {
   display: block;
   max-width: 130px;
