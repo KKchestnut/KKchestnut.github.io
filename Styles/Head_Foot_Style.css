@@ -1,7 +1,7 @@
 body{
 font-family: "Verdana", sans-serif;
 font-size: 16px;
-background: #546DA6;
+background: #465892;
 color: #96D0B2;
 }
 
@@ -38,7 +38,8 @@ li a:hover {
 
 #Main_body{
   background: #36454f;
-  color: #eaecf2
+  color: #eaecf2;
+  max-height: 2000px;
   padding: 10px;
 }
 
