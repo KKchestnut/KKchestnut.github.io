@@ -34,6 +34,7 @@ li a {
 li a:hover {
   /*background-color: #5b83d8;*/
   color: #ffffff;
+  text-decoration: none;
 }
 /*---         Nav       ---*/
 
