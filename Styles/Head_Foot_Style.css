@@ -1,6 +1,9 @@
 /*---         Nav       ---*/
 
-/* (ul, li, li a, & hover) for the navigation bar */
+#nav-placeholder{
+  background-color: #333d45;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -8,17 +11,21 @@ nav ul {
   overflow: hidden;
 }
 
+nav a {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #5d646f;
+  color: #FF8B01;
+}
+
  nav li {
   float: left;
 }
 
-li a {
-
+li > a {
   display: block;
-  color:  #69C4F2;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px 16px
   /*
   padding: 15px;
   font-size: 30px;
@@ -31,9 +38,10 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li > a:hover {
   /*background-color: #5b83d8;*/
-  color: #ffffff;
+  background-color: #4c535f;
+  color: #FF8B01;
   text-decoration: none;
 }
 /*---         Nav       ---*/
