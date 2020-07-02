@@ -4,6 +4,11 @@
   background-color: #333d45;
 }
 
+nav {
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -25,16 +30,7 @@ nav a {
 li > a {
   display: block;
   text-align: center;
-  padding: 14px 16px
-  /*
-  padding: 15px;
-  font-size: 30px;
-  width: 80px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 25%;
-   box-shadow: 0 16px 48px #E3E7EB;
-   */
+  padding: 14px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
